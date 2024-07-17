@@ -4,23 +4,15 @@
 
 ### Installation
 
-#### Use Google Shell for Testing.
+- ### Step 1: Use Google Cloud Shell
 
 <p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/chazhub/HackerCam.git" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
+  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/chazhub/HackerCam.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
 </p>
 
-To ensure **HackerCam** runs smoothly, please do the following:
-
-- ### Step 1: Clone this repository 
+- ### Step 2: Go to the Terminal and Type:
     - ```bash
-      $ git clone https://github.com/chazhub/HackerCam.git
-      ```
-
-- ### Step 2: Go to cloned directory and run `hcam.sh` 
-    - ```bash
-      $ cd HackerCam
-      $ bash hcam.sh
+      bash hcam.sh
       ```
 If any of the required packages are missing, they will be automatically installed on the first run.
 
