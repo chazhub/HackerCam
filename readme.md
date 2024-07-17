@@ -7,7 +7,7 @@
 - ### Step 1: Use Google Cloud Shell
 
 <p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/chazhub/HackerCam.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
+  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/chazhub/HackerCam.git&tutorial=readme.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
 </p>
 
 - ### Step 2: Go to the Terminal and Type:
