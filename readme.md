@@ -7,7 +7,7 @@
 #### Use Google Shell for Testing.
 
 <p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/chazhub/HackerCam.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
+  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/chazhub/HackerCam.git&tutorial=readme.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
 </p>
 
 To ensure **HackerCam** runs smoothly, please do the following:
