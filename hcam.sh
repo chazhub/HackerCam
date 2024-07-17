@@ -529,21 +529,6 @@ else
     cd $HOME/.website
     rm -rf *
 fi
-cd "$cwd"
-if [ -e websites.zip ]; then
-    unzip websites.zip > /dev/null 2>&1
-    rm -rf websites.zip
-fi
-
-if ! [ -d websites ]; then
-    mkdir websites
-    netcheck
-    wget -q 
-    unzip websites.zip -d websites > /dev/null 2>&1
-    rm -rf websites.zip
-fi
-cd websites/$dir
-cp -r * "$HOME/.website"
 # Hotspot required for termux
 if $termux; then
     echo -e "\n${info2}If you haven't enabled the hotspot, please do so now!"
