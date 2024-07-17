@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/files/hcam.png">
+  <img src="github/files/hcam.png">
 </p>
 
 ### Installation
